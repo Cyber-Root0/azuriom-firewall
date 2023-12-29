@@ -1,0 +1,15 @@
+{
+    "id": "firewall",
+    "name": "firewall",
+    "description": "Add support for the Shieldon Application Firewall",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "Bruno Alves <boteistem@gmail.com>"
+    ],
+    "azuriom_api": "1.1.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\Firewall\\Providers\\FirewallServiceProvider",
+        "\\Azuriom\\Plugin\\Firewall\\Providers\\RouteServiceProvider"
+    ]
+}
